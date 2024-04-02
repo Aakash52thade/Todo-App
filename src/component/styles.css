@@ -1,0 +1,89 @@
+/* Common styles */
+.input-field,
+.task-input { /* Consolidated styles for input fields */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Unified border-radius */
+    font-size: 16px;
+}
+
+.button-container button,
+.add-button,
+.button-group button { /* Unified button styles */
+    padding: 10px 20px;
+    margin: 3px; /* Unified margin */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff; /* Default button color */
+    color: white;
+}
+
+/* For specific button overrides */
+.save-button,
+.cancel-button,
+.edit-button,
+.delete-button {
+    background: pink; /* Base for specific buttons; override as needed */
+}
+
+.cancel-button {
+    border: 1px solid green;
+}
+
+/* TaskInput component styles */
+.input-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+/* TaskList component styles */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #c8c4e3;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    background-color: transparent; /* Ensures button backgrounds are consistent */
+}
+
+/* Specific button styles */
+.edit-button {
+    background: rgb(5, 179, 195);
+    color: black;
+}
+
+.delete-button {
+    background: rgb(5, 179, 195);
+    color: black;
+}
+
+.task-text-container {
+    background-color: #18ff69;
+    color: black;
+    padding: 9px 18px;
+    font-weight: 700;
+    border-radius: 3px;
+}
