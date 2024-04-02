@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTask } from '../redux/action';
-import './styles.css'; // Import CSS file for styling
+import './styles.css'; 
 
 const TaskInput = () => {
   const [taskInput, setTaskInput] = useState('');

@@ -1,31 +1,31 @@
 /* Common styles */
 .input-field,
-.task-input { /* Consolidated styles for input fields */
+.task-input { 
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px; /* Unified border-radius */
+    border-radius: 4px;
     font-size: 16px;
 }
 
 .button-container button,
 .add-button,
-.button-group button { /* Unified button styles */
+.button-group button { 
     padding: 10px 20px;
-    margin: 3px; /* Unified margin */
+    margin: 3px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #007bff; /* Default button color */
+    background-color: #007bff;
     color: white;
 }
 
-/* For specific button overrides */
+
 .save-button,
 .cancel-button,
 .edit-button,
 .delete-button {
-    background: pink; /* Base for specific buttons; override as needed */
+    background: pink; 
 }
 
 .cancel-button {
@@ -66,7 +66,7 @@
 
 .task-buttons button {
     margin-left: 5px;
-    background-color: transparent; /* Ensures button backgrounds are consistent */
+    background-color: transparent; 
 }
 
 /* Specific button styles */

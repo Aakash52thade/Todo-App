@@ -4,7 +4,7 @@ import { deleteTask } from '../redux/action';
 import { editTask } from '../redux/action';
 import TaskEditModal from './TaskEditModal';
 import { useState } from 'react';
-import './styles.css'; // Import CSS file for styling
+import './styles.css'; 
 
 const TaskList = () => {
   const tasks = useSelector(state => state.tasks);

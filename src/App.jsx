@@ -38,6 +38,6 @@ const styles = {
     marginBottom: '20px',
   },
   todoContainer: {
-    marginTop: '50px', // Adjust the top margin as needed
+    marginTop: '50px', 
   },
 };

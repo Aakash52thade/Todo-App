@@ -1,6 +1,6 @@
 // TaskEditModal.js
 import { useState } from 'react';
-import './styles.css'; // Import CSS file for styling
+import './styles.css'; 
 
 const TaskEditModal = ({ task, onEditSubmit, onCancel }) => {
   const [newText, setNewText] = useState(task ? task.text : '');
